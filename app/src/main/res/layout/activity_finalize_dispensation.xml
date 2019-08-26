@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--@SerializedName("cid")-->
+    <!--@Expose-->
+    <!--var cid: String,-->
+    <!--@SerializedName("cps")-->
+    <!--@Expose-->
+    <!--var cps: String,-->
+    <!--@SerializedName("cpfBuyer")-->
+    <!--@Expose-->
+    <!--var cpfBuyer: String,-->
+    <!--@SerializedName("cpfPatient")-->
+    <!--@Expose-->
+    <!--var cpfPatient: String,-->
+    <!--@SerializedName("prescriptionDate")-->
+    <!---->
+
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorReason1">
+
+
+        <android.support.v7.widget.CardView
+                android:orientation="vertical"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent">
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                        android:text="Preencha os campos abaixo:"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/textView8" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp" android:layout_marginTop="16dp"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                <EditText
+                        android:hint="Código Internacional da Doença"
+                        android:textSize="14dp"
+                        android:textAlignment="textStart"
+                        android:background="@drawable/editable_fields_edit_text_background"
+                        android:padding="@dimen/fab_margin"
+                        android:singleLine="true"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp" android:id="@+id/cid_et"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                        app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+                        android:layout_marginTop="16dp"/>
+                <EditText
+                        android:hint="Código do Profissional de Saúde"
+                        android:textSize="14dp"
+                        android:textAlignment="textStart"
+                        android:background="@drawable/editable_fields_edit_text_background"
+                        android:padding="@dimen/fab_margin"
+                        android:singleLine="true"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp" android:id="@+id/cps_et"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@+id/cid_et" android:layout_marginTop="16dp"/>
+                <EditText
+                        android:hint="CPF do comprador"
+                        android:textSize="14dp"
+                        android:background="@drawable/editable_fields_edit_text_background"
+                        android:inputType="number"
+                        android:padding="@dimen/fab_margin"
+                        android:singleLine="true"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/cpf_buyer_et" app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@+id/cps_et" android:layout_marginTop="16dp"/>
+
+                <EditText
+                        android:hint="CPF do paciente"
+                        android:textSize="14dp"
+                        android:background="@drawable/editable_fields_edit_text_background"
+                        android:padding="@dimen/fab_margin"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/cpf_patient_et" app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@+id/cpf_buyer_et" android:layout_marginTop="16dp"/>
+
+
+
+                <Button
+                        android:text="Finalizar Itens"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/button_background"
+                        android:backgroundTint="@color/colorReason1"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:id="@+id/finalize_dispensation_btn"
+                        app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"/>
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

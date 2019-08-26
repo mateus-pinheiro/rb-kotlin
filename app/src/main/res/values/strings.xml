@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">R&amp;B Coletor</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_finalize_scan_items">Finalizar Item</string>
+    <string name="title_activity_finalize_dispensation">FinalizeDispensationActivity</string>
+    <string name="title_activity_finalize_reason">FinalizeReasonActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_entry_list_options">EntryListOptionsActivity</string>
+    <string name="title_activity_entry_detail">EntryDetailActivity</string>
+    <string name="title_activity_exit">Saída</string>
+
+    <string-array name="type_balances_1" tools:ignore="DuplicateDefinition">
+        <item>Comercialização</item>
+        <item>Doação</item>
+        <item>Transferência</item>
+    </string-array>
+
+    <string-array name="checkout_type_items">
+        <item>Transferência</item>
+        <item>Doação</item>
+        <item>Comercialização</item>
+        <item>Devolução</item>
+        <item>Recolhimento</item>
+        <item>Grátis</item>
+        <item>Amostra Grátis</item>
+        <item>Avaria</item>
+        <item>Expirado</item>
+    </string-array>
+
+    <string-array name="checkout_type_items_1">
+        <item>Transferência</item>
+        <item>Doação</item>
+        <item>Comercialização</item>
+    </string-array>
+
+    <string-array name="document_type_items">
+        <item>Nota_Fiscal</item>
+        <item>Ordem_Compra</item>
+        <item>Comercialização</item>
+    </string-array>
+
+    <string-array name="origin_local">
+        <item>Origin One</item>
+        <item>Origin Two</item>
+        <item>Origin Three</item>
+    </string-array>
+    <string name="title_activity_destiny">Destino</string>
+    <string name="title_activity_exit_documents">Documentos</string>
+    <string name="title_activity_exit_movimentation">Movimentação</string>
+    <string name="title_activity_aggregation_options">Escolha uma ação</string>
+    <string name="title_activity_new_aggregation_sencond">Tipos de Agregação</string>
+    <string name="title_activity_new_aggregation_scan_acitivty"></string>
+    <string name="title_activity_new_aggregation_added_or_remove_item">Agregação remove/add item</string>
+    <string name="title_activity_edit_aggregation">Edite Agregação</string>
+    <string name="title_activity_finalize_scan">Finalização</string>
+    <string name="title_activity_search_barcode_traceable">SearchBarcodeTraceableActivity</string>
+</resources>

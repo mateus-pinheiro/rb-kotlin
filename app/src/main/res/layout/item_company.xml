@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <TextView
+            android:text="Empresa:"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNameCompany"
+            tools:text="Nome da empresa"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" android:textSize="15sp" android:textColor="@android:color/black"/>
+    <TextView
+            android:text="CNPJ:"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvNameCompany" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+    />
+    <TextView
+            tools:text="000.0000/00001"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCNPJ"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" android:textSize="15sp" android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="@+id/textView13"
+            app:layout_constraintStart_toEndOf="@+id/textView13" android:layout_marginStart="16dp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView17"
+            android:background="@color/gray"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvCNPJ" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"/>
+</android.support.constraint.ConstraintLayout>

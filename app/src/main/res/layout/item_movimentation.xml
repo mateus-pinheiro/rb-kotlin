@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="5dp"
+                android:layout_height="0dp" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="4dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp">
+            <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@android:color/darker_gray">
+
+                <android.support.constraint.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/white"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent">
+
+                    <TextView
+                            android:text="SNCM1218"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvBatchCode" app:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginStart="5dp" app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginTop="5dp"/>
+                </android.support.constraint.ConstraintLayout>
+                <View android:layout_width="match_parent" android:layout_height="0.1dp"
+                      android:background="@android:color/darker_gray" app:layout_constraintBottom_toBottomOf="parent"/>
+                <TextView
+                        android:text="07896094208100 -"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:id="@+id/tvEanComercial"
+                        app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="5dp"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="5dp"/>
+                <TextView
+                        android:text="FAULBLASTINA 10 MG / 10 ML 5 FA OR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:id="@+id/tvName" android:layout_marginStart="1dp"
+                        app:layout_constraintStart_toEndOf="@+id/tvEanComercial"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="5dp" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="5dp"/>
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" android:layout_gravity="bottom">
+                <!--<TextView-->
+                <!--android:text="Quantidade Escaneada"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/textView13"-->
+                <!--app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="15dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toStartOf="@+id/view4"-->
+                <!--android:textAlignment="center"/>-->
+                <TextView
+                        android:text="Quantidade a escanear"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:textAlignment="center"/>
+                <!--<TextView-->
+                <!--android:hint="000"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/tvQuantityScanned"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/textView13" android:layout_marginTop="5dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="65dp"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/view4" android:layout_marginEnd="65dp"-->
+                <!--android:textAlignment="center"/>-->
+                <TextView
+                        android:hint="000"
+                        android:layout_width="0dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvQuantity"
+                        app:layout_constraintTop_toBottomOf="@+id/textView14" android:layout_marginTop="5dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
+                />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

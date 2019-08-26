@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_new_aggregation_added_or_remove_item"
+        tools:context=".ui.NewAggregationAddedOrRemoveItemActivity">
+
+
+    <Button
+            android:text="6"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/btButtonQuantityItems"
+            android:background="@drawable/bg_round_items"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:textSize="50sp"/>
+    <TextView
+            android:text="Itens"
+            android:layout_width="0dp"
+            android:layout_height="34dp"
+            android:id="@+id/textView18" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btButtonQuantityItems"
+            app:layout_constraintStart_toEndOf="@+id/btButtonQuantityItems"
+            android:layout_marginStart="16dp" android:textSize="20sp"/>
+</android.support.constraint.ConstraintLayout>

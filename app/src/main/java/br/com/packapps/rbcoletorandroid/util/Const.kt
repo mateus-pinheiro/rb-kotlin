@@ -1,0 +1,25 @@
+package br.com.packapps.rbcoletorandroid.util
+
+object Const{
+    val LIST_ITEM = "list_items"
+    val CHECKOUT_ITEM = "checkout_item"
+    val CHECKOUT_WITHOUT_NF = "checkout_without_nf"
+    val PRIVILEGES = "privileges"
+    val TYPE_COMPANY = "type_prefix_company"
+    val ARG_PARAM1 = "arg_param1"
+    val TITLE = "title"
+    val MESSAGE = "message"
+    val BARCODE = "barcode"
+    val RESPONSE_ENTRY_DETAIL = "response_entry"
+    val FINALIZE_BODY = "finalize_body"
+    val QUERY_COMPANY = "query_search"
+    val TYPE_AGRREGATION = "type_aggregation"
+    val NEW_AGGREGATION_SCANNED = "new_aggregation_scanned"
+    val EDIT_AGGREGATION_SCANNED = "edit_aggregation_scanned"
+    val EDIT_AGGREGATION_OPTION = "edit_aggregation_option"
+    val EDIT_AGGREGATION_BARCODE_SCANNED = "edit_aggregation_barcode_scanned"
+    val FROM_ACTIVITY = "from_activity"
+    val ITEM_SELECTED = "=item_selectd"
+    val ID_WIDGET_FROM = "id_widget_from"
+    val LIST_OF_DOCS = "list_of_docs"
+}

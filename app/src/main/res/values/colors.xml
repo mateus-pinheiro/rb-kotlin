@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0018A8</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#008fa8</color>
+    <color name="colorSoft">#99beea</color>
+    <color name="colorSuccessGreen">#2cc16a</color>
+    <color name="colorFailRed">#c83249</color>
+
+
+    <color name="colorMenuEntrada">#0900bb</color>
+    <color name="colorMenuSaida">#63b926</color>
+    <color name="colorMenuFinalizacao">#a000d2</color>
+    <color name="colorMenuAgregacao">#ef5a25</color>
+
+    <color name="colorReason1">#ff5900</color>
+    <color name="colorReason2">#fac003</color>
+    <color name="colorReason3">#0900bb</color>
+    <color name="colorReason4">#63b926</color>
+    <color name="colorReason5">#a000d2</color>
+    <color name="colorReason6">#0d6621</color>
+    <color name="colorReason7">#ff7227</color>
+    <color name="gray">#f1eeee</color>
+
+</resources>
